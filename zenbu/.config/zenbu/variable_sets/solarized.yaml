@@ -1,0 +1,40 @@
+# SOLARIZED
+name: "solarized"
+
+#WALLPAPER
+wallpaper:  "solarized.png"
+wtype:      "fill"
+
+#COLORS
+colors:
+    wmbf:       "#1f4a57"
+    wmbu:       "#073645"
+
+    background: "#002b36"
+    foreground: "#839496"
+    cursor:     "#93a1a1"
+
+    black:
+        normal: "#073645"
+        bold:   "#1f4a57"
+    red:
+        normal: "#dc322f"
+        bold:   "#cb4b16"
+    green:
+        normal: "#859900"
+        bold:   "#586e75"
+    yellow:
+        normal: "#b58900"
+        bold:   "#657b83"
+    blue:
+        normal: "#268bd2"
+        bold:   "#839496"
+    magenta:
+        normal: "#d33682"
+        bold:   "#6c71c4"
+    cyan:
+        normal: "#2aa198"
+        bold:   "#93a1a1"
+    white:
+        normal: "#eee8d5"
+        bold:   "#fdf6e3"

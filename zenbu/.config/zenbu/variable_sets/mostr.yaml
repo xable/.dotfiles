@@ -1,0 +1,40 @@
+# MOSTR
+name: "mostr"
+
+#WALLPAPER
+wallpaper:  "river.png"
+wtype:      "fill"
+
+#COLORS
+colors:
+    wmbf:       "#c9c6c9"
+    wmbu:       "#435255"
+
+    background: "#0e181a"
+    foreground: "#c9c6c9"
+    cursor:     "#cccccc"
+
+  black:
+    normal:     "#1c2f34"
+    bold:       "#1c2f34"
+  red:
+    normal:     "#435255"
+    bold:       "#435255"
+  green:
+    normal:     "#546668"
+    bold:       "#546668"
+  yellow:
+    normal:     "#65787c"
+    bold:       "#65787c"
+  blue:
+    normal:     "#7e8c8f"
+    bold:       "#7e8c8f"
+  magenta:
+    normal:     "#a9adb0"
+    bold:       "#a9adb0"
+  cyan:
+    normal:     "#c9cbcc"
+    bold:       "#c9cbcc"
+  white:
+    normal:     "#c9c6c9"
+    bold:       "#c9c6c9"

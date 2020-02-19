@@ -1,0 +1,40 @@
+# TEMPLATE
+name: ""
+
+#WALLPAPER
+wallpaper:  ""
+wtype:      ""
+
+#COLORS
+colors:
+    wmbf:       ""
+    wmbu:       ""
+
+    background: ""
+    foreground: ""
+    cursor:     ""
+
+    black:
+        normal: ""
+        bold:   ""
+    red:
+        normal: ""
+        bold:   ""
+    green:
+        normal: ""
+        bold:   ""
+    yellow:
+        normal: ""
+        bold:   ""
+    blue:
+        normal: ""
+        bold:   ""
+    magenta:
+        normal: ""
+        bold:   ""
+    cyan:
+        normal: ""
+        bold:   ""
+    white:
+        normal: ""
+        bold:   ""

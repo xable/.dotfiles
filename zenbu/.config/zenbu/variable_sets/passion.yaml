@@ -1,0 +1,40 @@
+# PASSION
+name: "passion"
+
+#WALLPAPER
+wallpaper:  "passion.jpg"
+wtype:      "fill"
+
+#COLORS
+colors:
+    wmbf:       "#413a44"
+    wmbu:       "#29222d"
+
+    background: "#120a16"
+    foreground: "#fbf9e4"
+    cursor:     "#957d6b"
+
+    black:
+        normal: "#29222d"
+        bold:   "#413a44"
+    red:
+        normal: "#9e7a6f"
+        bold:   "#b99a91"
+    green:
+        normal: "#678e58"
+        bold:   "#86ad76"
+    yellow:
+        normal: "#d4a62a"
+        bold:   "#e1bc5a"
+    blue:
+        normal: "#548a9e"
+        bold:   "#77a6b9"
+    magenta:
+        normal: "#442f4d"
+        bold:   "#594661"
+    cyan:
+        normal: "#569da3"
+        bold:   "#77b0b5"
+    white:
+        normal: "#f3cdbf"
+        bold:   "#fdf5f2"

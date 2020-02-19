@@ -1,0 +1,40 @@
+# BARRAGE
+name: "barrage"
+
+#WALLPAPER
+wallpaper:  "barrage.png"
+wtype:      "fill"
+
+#COLORS
+colors:
+    wmbf:       "#823A45"
+    wmbu:       "#323232"
+
+    background: "#1b1d20"
+    foreground: "#a5a5a5"
+    cursor:     "#a5a5a5"
+
+    black:
+        normal: "#323232"
+        bold:   "#823A45"
+    red:
+        normal: "#878c49"
+        bold:   "#BA954A"
+    green:
+        normal: "#335F79"
+        bold:   "#7F3A60"
+    yellow:
+        normal: "#1E4E51"
+        bold:   "#b3b3b3"
+    blue:
+        normal: "#424242"
+        bold:   "#82444C"
+    magenta:
+        normal: "#A5AC69"
+        bold:   "#E3C55B"
+    cyan:
+        normal: "#548098"
+        bold:   "#7F4766"
+    white:
+        normal: "#2D5D5F"
+        bold:   "#b0b0b0"

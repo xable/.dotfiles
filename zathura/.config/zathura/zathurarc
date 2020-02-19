@@ -1,0 +1,33 @@
+## ~/.config/zathura/zathurarc
+
+set show-scrollbars false
+set n-completion-items 10
+set zoom-step 5
+set page-padding 0
+set pages-per-row 1
+set recolor true
+set adjust-open best-fit
+
+set font "kuzu 8"
+set default-bg "#14151F"
+set default-fg "#E5EAF0"
+set inputbar-bg "#1A1B26"
+set inputbar-fg "#E5EAF0"
+set statusbar-bg "#1A1B26"
+set statusbar-fg "#E5EAF0"
+set tabbar-bg "#1A1B26"
+set tabbar-fg "#E5EAF0"
+set tabbar-focus-bg "#7290B2"
+set tabbar-focus-fg "#B475C9"
+set completion-bg "#1A1B26"
+set completion-fg "#E5EAF0"
+set completion-group-bg "#1A1B26"
+set completion-group-fg "#E5EAF0"
+set completion-highlight-bg "#7290B2"
+set completion-highlight-fg "#B475C9"
+set notification-error-bg "#1A1B26"
+set notification-error-fg "#E5EAF0"
+set notification-warning-bg "#1A1B26"
+set notification-warning-fg "#E5EAF0"
+set recolor-darkcolor "#E5EAF0"
+set recolor-lightcolor "#14151F"

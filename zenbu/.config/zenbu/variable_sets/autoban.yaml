@@ -1,0 +1,40 @@
+# AUTOBAN
+name: "autoban"
+
+#WALLPAPER
+wallpaper:  "autoban.jpg"
+wtype:      "fill"
+
+#COLORS
+colors:
+    wmbf:       "#036495"
+    wmbu:       "#003549"
+
+    background: "#0B2830"
+    foreground: "#C7FEFE"
+    cursor:     "#C7FEFE"
+
+    black:
+        normal: "#003549"
+        bold:   "#036495"
+    red:
+        normal: "#DA4B8E"
+        bold:   "#F973B4"
+    green:
+        normal: "#12677F"
+        bold:   "#009BC2"
+    yellow:
+        normal: "#C4BDBE"
+        bold:   "#F6E8EF"
+    blue:
+        normal: "#004F77"
+        bold:   "#005490"
+    magenta:
+        normal: "#CD4383"
+        bold:   "#EA7DB2"
+    cyan:
+        normal: "#00CDFE"
+        bold:   "#37EDF7"
+    white:
+        normal: "#C7FEFE"
+        bold:   "#fefefe"

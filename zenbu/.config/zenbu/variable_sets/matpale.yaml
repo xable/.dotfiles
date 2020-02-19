@@ -1,0 +1,40 @@
+# MATPALE
+name: "matpale"
+
+#WALLPAPER
+wallpaper:  "matpale.jpg"
+wtype:      "fill"
+
+#COLORS
+colors:
+    wmbf:       "#565679"
+    wmbu:       "#41485F"
+
+    background: "#292D3E"
+    foreground: "#959DCB"
+    cursor:     "#959DCB"
+
+    black:
+        normal: "#41485f"
+        bold:   "#565679"
+    red:
+        normal: "#F07178"
+        bold:   "#bd8181"
+    green:
+        normal: "#C3E88D"
+        bold:   "#86976c"
+    yellow:
+        normal: "#FFCB6B"
+        bold:   "#a68d65"
+    blue:
+        normal: "#82AAFF"
+        bold:   "#8090bb"
+    magenta:
+        normal: "#C792EA"
+        bold:   "#a187b0"
+    cyan:
+        normal: "#89DDFF"
+        bold:   "#00a5e7"
+    white:
+        normal: "#959DCB"
+        bold:   "#FFFFFF"

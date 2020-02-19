@@ -1,0 +1,40 @@
+# DRACULA
+name: "d0"
+
+#WALLPAPER
+wallpaper:  "dracula.jpg"
+wtype:      "fill"
+
+#COLORS
+colors:
+    wmbf:       "#4C4E66"
+    wmbu:       "#1E1F29"
+
+    background: "#282A36"
+    foreground: "#F8F8F2"
+    cursor:     "#F8F8F2"
+
+    black:
+        normal: "#1E1F29"
+        bold:   "#4C4E66"
+    red:
+        normal: "#cc4444"
+        bold:   "#FF5555"
+    green:
+        normal: "#41cc64"
+        bold:   "#50FA7B"
+    yellow:
+        normal: "#c5cc72"
+        bold:   "#F1FA8C"
+    blue:
+        normal: "#9b78cc"
+        bold:   "#BD93F9"
+    magenta:
+        normal: "#cc619f"
+        bold:   "#FF79C6"
+    cyan:
+        normal: "#70bccc"
+        bold:   "#8BE9FD"
+    white:
+        normal: "#BFBFBF"
+        bold:   "#E6E6E6"

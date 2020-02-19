@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+maim -s --hidecursor "$HOME/Pictures/Screenshots/$(date +%F-%T).png"

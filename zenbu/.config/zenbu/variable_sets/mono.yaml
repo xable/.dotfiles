@@ -1,0 +1,40 @@
+# MONO
+name: "mono"
+
+#WALLPAPER
+wallpaper:  "mono.png"
+wtype:      "tile"
+
+#COLORS
+colors:
+    wmbf:       "#181818"
+    wmbu:       "#111111"
+
+    background: "#000000"
+    foreground: "#ffffff"
+    cursor:     "#ffffff"
+
+    black:
+        normal: "#000000"
+        bold:   "#090909"
+    red:
+        normal: "#111111"
+        bold:   "#181818"
+    green:
+        normal: "#222222"
+        bold:   "#272727"
+    yellow:
+        normal: "#333333"
+        bold:   "#393939"
+    blue:
+        normal: "#444444"
+        bold:   "#484848"
+    magenta:
+        normal: "#555555"
+        bold:   "#595959"
+    cyan:
+        normal: "#666666"
+        bold:   "#707070"
+    white:
+        normal: "#777777"
+        bold:   "#818181"

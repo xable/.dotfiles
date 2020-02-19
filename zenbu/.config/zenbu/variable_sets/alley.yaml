@@ -1,0 +1,40 @@
+# ALLEY
+name: "alley"
+
+#WALLPAPER
+wallpaper:  "alley.jpg"
+wtype:      "fill"
+
+#COLORS
+colors:
+    wmbf:       "#365860"
+    wmbu:       "#243a3f"
+
+    background: "#111c1f"
+    foreground: "#c6dce9"
+    cursor:     "#bfbfbf"
+
+    black:
+        normal: "#243a3f"
+        bold:   "#365860"
+    red:
+        normal: "#393843"
+        bold:   "#662b37"
+    green:
+        normal: "#75404b"
+        bold:   "#193a48"
+    yellow:
+        normal: "#235964"
+        bold:   "#393843"
+    blue:
+        normal: "#0b4753"
+        bold:   "#75404b"
+    magenta:
+        normal: "#2a474a"
+        bold:   "#662b37"
+    cyan:
+        normal: "#662b37"
+        bold:   "#083842"
+    white:
+        normal: "#bfbfbf"
+        bold:   "#c6dce9"

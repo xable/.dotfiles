@@ -1,0 +1,40 @@
+# MAGA
+name: "maga"
+
+#WALLPAPER
+wallpaper:  "maga.jpg"
+wtype:      "fill"
+
+#COLORS
+colors:
+    wmbf:       "#4e4c5e"
+    wmbu:       "#1f1d2f"
+
+    background: "#1a1829"
+    foreground: "#ac9b9d"
+    cursor:     "#e6e1e1"
+
+    black:
+        normal: "#1f1d2f"
+        bold:   "#4e4c5e"
+    red:
+        normal: "#84305e"
+        bold:   "#90446e"
+    green:
+        normal: "#717557"
+        bold:   "#7f8267"
+    yellow:
+        normal: "#aa6772"
+        bold:   "#b27680"
+    blue:
+        normal: "#534475"
+        bold:   "#645682"
+    magenta:
+        normal: "#805084"
+        bold:   "#8c6190"
+    cyan:
+        normal: "#816886"
+        bold:   "#8d7792"
+    white:
+        normal: "#ac9b9d"
+        bold:   "#c4b9ba"

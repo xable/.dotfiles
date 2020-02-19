@@ -1,0 +1,40 @@
+# PURPUR
+name: "purpur"
+
+#WALLPAPER
+wallpaper:  "purpur.jpg"
+wtype:      "fill"
+
+#COLORS
+colors:
+    wmbf:       "#2f2a4c"
+    wmbu:       "#1a182b"
+
+    background: "#06060a"
+    foreground: "#cba3c9"
+    cursor:     "#735796"
+
+    black:
+        normal: "#1a182b"
+        bold:   "#2f2a4c"
+    red:
+        normal: "#b76e85"
+        bold:   "#cf93a5"
+    green:
+        normal: "#595c97"
+        bold:   "#7a7db3"
+    yellow:
+        normal: "#a870a3"
+        bold:   "#c393bf"
+    blue:
+        normal: "#685a9a"
+        bold:   "#887cb5"
+    magenta:
+        normal: "#9a75a6"
+        bold:   "#b797c1"
+    cyan:
+        normal: "#715a90"
+        bold:   "#9079ae"
+    white:
+        normal: "#9a76af"
+        bold:   "#b898ca"

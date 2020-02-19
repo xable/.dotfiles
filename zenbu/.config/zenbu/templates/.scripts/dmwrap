@@ -1,0 +1,15 @@
+#!/usr/bin/bash
+#dmwrap - dmenu wrapper
+
+font="{{ font4 }}"
+nb="{{ n_black }}"
+nf="{{ n_white }}"
+sb="{{ b_black }}"
+sf="{{ b_white }}"
+w="875"
+h="20"
+x="330"
+y="14"
+opt="-fn "$font" -nb "$nb" -nf "$nf" -sb "$sb" -sf "$sf" -w "$w" -h "$h" -x "$x" -y "$y""
+
+dmenu_run $opt

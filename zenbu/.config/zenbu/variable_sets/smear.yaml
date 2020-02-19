@@ -1,0 +1,40 @@
+# SMEAR
+name: "smear"
+
+#WALLPAPER
+wallpaper:  "smear.png"
+wtype:      "fill"
+
+#COLORS
+colors:
+    wmbf:       "#525c67"
+    wmbu:       "#3e4853"
+
+    background: "#20242c"
+    foreground: "#b3b8c4"
+    cursor:     "#b3b8c4"
+
+    black:
+        normal: "#3e4853"
+        bold:   "#525c67"
+    red:
+        normal: "#b06a58"
+        bold:   "#ba7e6c"
+    green:
+        normal: "#95b47b"
+        bold:   "#a9c88f"
+    yellow:
+        normal: "#e5c078"
+        bold:   "#f9d48c"
+    blue:
+        normal: "#58698c"
+        bold:   "#6c7da0"
+    magenta:
+        normal: "#7b5e8d"
+        bold:   "#8f72a1"
+    cyan:
+        normal: "#82a1b2"
+        bold:   "#96b5c6"
+    white:
+        normal: "#cccaca"
+        bold:   "#e0dede"

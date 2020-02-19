@@ -1,0 +1,48 @@
+#!/usr/bin/env bash
+# Exports the .Xresources colors to a CSS file format.
+
+CSS=$HOME/.mozilla/colors.css
+
+# grab colors from .Xresources
+bg=$(xrdb -query | grep "background:" | awk '{print $2}')
+fg=$(xrdb -query | grep "foreground:" | awk '{print $2}')
+color0=$(xrdb -query | grep "color0:" | awk '{print $2}')
+color1=$(xrdb -query | grep "color1:" | awk '{print $2}')
+color2=$(xrdb -query | grep "color2:" | awk '{print $2}')
+color3=$(xrdb -query | grep "color3:" | awk '{print $2}')
+color4=$(xrdb -query | grep "color4:" | awk '{print $2}')
+color5=$(xrdb -query | grep "color5:" | awk '{print $2}')
+color6=$(xrdb -query | grep "color6:" | awk '{print $2}')
+color7=$(xrdb -query | grep "color7:" | awk '{print $2}')
+color8=$(xrdb -query | grep "color8:" | awk '{print $2}')
+color9=$(xrdb -query | grep "color9:" | awk '{print $2}')
+color10=$(xrdb -query | grep "color10:" | awk '{print $2}')
+color11=$(xrdb -query | grep "color11:" | awk '{print $2}')
+color12=$(xrdb -query | grep "color12:" | awk '{print $2}')
+color13=$(xrdb -query | grep "color13:" | awk '{print $2}')
+color14=$(xrdb -query | grep "color14:" | awk '{print $2}')
+color15=$(xrdb -query | grep "color15:" | awk '{print $2}')
+
+# FIREFOX CSS
+cat > $CSS <<-EOCFG
+:root {
+  --bg: $bg;
+  --fg: $fg;
+  --blk: $color0;
+  --red: $color1;
+  --grn: $color2;
+  --ylw: $color3;
+  --blu: $color4;
+  --mag: $color5;
+  --cyn: $color6;
+  --wht: $color7;
+  --bblk: $color8;
+  --bred: $color9;
+  --bgrn: $color10;
+  --bylw: $color11;
+  --bblu: $color12;
+  --bmag: $color13;
+  --bcyn: $color14;
+  --bwht: $color15;
+}
+EOCFG

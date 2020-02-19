@@ -1,0 +1,102 @@
+/* Minimal compact style for FF58+ */
+@import url('file:///home/xable/.mozilla/colors.css');
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+:root {
+  --bg-dark: var(--bg);
+  --bg-light: var(--blk);
+  --tab-font: "xos4 Terminus";
+  --tab-font-size: 9pt;
+  --tab-text-align: left;
+  --url-font: "kuzu";
+  --url-font-size: 9pt;
+  --url-text-align: left;
+  --toolbarbutton-border-radius: 0px !important;
+}
+
+.tab-line {
+  display: none !important;
+}
+
+.tab-background {
+    border-top: none !important;
+}
+
+.tabbrowser-tab:not(:hover) .close-icon {
+  opacity: 0 !important
+}
+
+#TabsToolbar {
+  margin-bottom: 0 !important;
+}
+
+#tabbrowser-tabs, .tabbrowser-arrowscrollbox {
+  min-height: 0 !important;
+  background: var(--bg-dark) !important;
+}
+
+#TabsToolbar .private-browsing-indicator {
+  width: 16px !important;
+  height: 16px !important;
+  margin: 0 5px !important;
+}
+
+#tabbrowser-tabs .tabs-newtab-button .toolbarbutton-icon {
+  width: 16px !important;
+  height: 16px !important;
+  padding: 0 !important;
+}
+
+.tabbrowser-tab::before,
+.tabbrowser-tab::after{
+  display: none !important;
+}
+
+.tab-background[selected="true"] {
+  background: var(--bg-light) !important;
+}
+
+.tab-background[selected="false"], .tabbrowser-tab {
+  background: var(--bg-dark) !important;
+}
+
+.tab-content {
+  padding: 0px 3px 0px 3px !important;
+  font-family: var(--tab-font) !important;
+  font-size: var(--tab-font-size) !important;
+  text-align: var(--tab-text-align) !important;
+}
+
+.browserContainer {
+	background-color: var(--bg-light) !important;
+}
+
+#PersonalToolbar {
+  padding: 0px !important;
+}
+
+#nav-bar, #navigator-toolbox {
+  height: 25px !important;
+  border: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  background: var(--bg-light) !important;
+  padding: 0px !important;
+  margin: 0 !important;
+  transition: none !important;
+  margin-bottom: -1px !important;
+}
+
+#urlbar, #urlbar-container {
+  border: none !important;
+  box-shadow: none !important;
+  border-bottom: 0px !important;
+  border-radius: 0px !important;
+  margin: 0 !important;
+  padding: 0 0 0 0 !important;
+  background: var(--bg-light) !important;
+  transition: none !important;
+  font-family: var(--url-font) !important;
+  font-size: var(--url-font-size) !important;
+  text-align: var(--url-text-align) !important;
+}

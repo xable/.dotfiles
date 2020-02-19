@@ -1,0 +1,40 @@
+# AUTU
+name: "autu"
+
+#WALLPAPER
+wallpaper:  "autu.jpg"
+wtype:      "fill"
+
+#COLORS
+colors:
+    wmbf:       "#366A71"
+    wmbu:       "#172F35"
+
+    background: "#051d23"
+    foreground: "#b5b5bc"
+    cursor:     "#b5b5bc"
+
+    black:
+        normal: "#193137"
+        bold:   "#0c4857"
+    red:
+        normal: "#725c4c"
+        bold:   "#a67f72"
+    green:
+        normal: "#195b6a"
+        bold:   "#207e9e"
+    yellow:
+        normal: "#584d44"
+        bold:   "#8c7761"
+    blue:
+        normal: "#073b49"
+        bold:   "#0b627d"
+    magenta:
+        normal: "#24616b"
+        bold:   "#3f9e9e"
+    cyan:
+        normal: "#3b7279"
+        bold:   "#53a0aa"
+    white:
+        normal: "#b5b5bc"
+        bold:   "#eee7e4"

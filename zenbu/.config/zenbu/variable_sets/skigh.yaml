@@ -1,0 +1,40 @@
+# SKIGH
+name: "skigh"
+
+#WALLPAPER
+wallpaper:  "skigh.png"
+wtype:      "tile"
+
+#COLORS
+colors:
+    wmbf:       "#3b434f"
+    wmbu:       "#272c34"
+
+    background: "#252a32"
+    foreground: "#bab7b5"
+    cursor:     "#bab7b5"
+
+    black:
+        normal: "#272c34"
+        bold:   "#3b434f"
+    red:
+        normal: "#876058"
+        bold:   "#bd938a"
+    green:
+        normal: "#6f7f71"
+        bold:   "#a3b4a5"
+    yellow:
+        normal: "#b39580"
+        bold:   "#baa89a"
+    blue:
+        normal: "#546780"
+        bold:   "#879ab5"
+    magenta:
+        normal: "#84787d"
+        bold:   "#b9acb2"
+    cyan:
+        normal: "#556f86"
+        bold:   "#88a3bb"
+    white:
+        normal: "#bab7b5"
+        bold:   "#dfdedd"

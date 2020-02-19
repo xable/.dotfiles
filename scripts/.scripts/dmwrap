@@ -1,0 +1,15 @@
+#!/usr/bin/bash
+#dmwrap - dmenu wrapper
+
+font="kuzu-8"
+nb="#1A1B26"
+nf="#D1D6DC"
+sb="#24252F"
+sf="#E5EAF0"
+w="875"
+h="20"
+x="330"
+y="14"
+opt="-fn "$font" -nb "$nb" -nf "$nf" -sb "$sb" -sf "$sf" -w "$w" -h "$h" -x "$x" -y "$y""
+
+dmenu_run $opt

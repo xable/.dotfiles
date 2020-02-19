@@ -1,0 +1,1 @@
+for x in $(cat $HOME/.dotfiles/yaourt.list); do yaourt -S --noconfirm $x; done

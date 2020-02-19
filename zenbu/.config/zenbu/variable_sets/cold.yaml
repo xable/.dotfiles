@@ -1,0 +1,40 @@
+# COLD
+name: "cold"
+
+#WALLPAPER
+wallpaper:  "cold.png"
+wtype:      "tile"
+
+#COLORS
+colors:
+    wmbf:       "#4c5356"
+    wmbu:       "#2b3135"
+
+    background: "#121317"
+    foreground: "#deded6"
+    cursor:     "#deded6"
+
+    black:
+        normal: "#2b3135"
+        bold:   "#4c5356"
+    red:
+        normal: "#922230"
+        bold:   "#923a45"
+    green:
+        normal: "#0f8c61"
+        bold:   "#198873"
+    yellow:
+        normal: "#ba883d"
+        bold:   "#ba9153"
+    blue:
+        normal: "#277896"
+        bold:   "#3c7e96"
+    magenta:
+        normal: "#4b4574"
+        bold:   "#53569b"
+    cyan:
+        normal: "#638b83"
+        bold:   "#7dbfb8"
+    white:
+        normal: "#cdcdcd"
+        bold:   "#deded6"

@@ -1,0 +1,40 @@
+# FLAWA
+name: "flawa"
+
+#WALLPAPER
+wallpaper:  "flawa.jpg"
+wtype:      "fill"
+
+#COLORS
+colors:
+    wmbf:       "#1a3939"
+    wmbu:       "#122828"
+
+    background: "#0a1616"
+    foreground: "#bfd3e0"
+    cursor:     "#284649"
+
+    black:
+        normal: "#122828"
+        bold:   "#1a3939"
+    red:
+        normal: "#cd5a67"
+        bold:   "#df848f"
+    green:
+        normal: "#7d8760"
+        bold:   "#8a936f"
+    yellow:
+        normal: "#9b9280"
+        bold:   "#bab19f"
+    blue:
+        normal: "#5e6d79"
+        bold:   "#6e7b86"
+    magenta:
+        normal: "#7b807e"
+        bold:   "#98a09d"
+    cyan:
+        normal: "#778b8a"
+        bold:   "#96a9a9"
+    white:
+        normal: "#b3bec1"
+        bold:   "#f7f8f8"

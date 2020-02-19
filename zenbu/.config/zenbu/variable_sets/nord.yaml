@@ -1,0 +1,40 @@
+# NORD
+name: "nord"
+
+#WALLPAPER
+wallpaper:  "floral992.gif"
+wtype:      "tile"
+
+#COLORS
+colors:
+    wmbf:       "#4C566A"
+    wmbu:       "#3B4252"
+
+    background: "#2E3440"
+    foreground: "#D8DEE9"
+    cursor:     "#D8DEE9"
+
+    black:
+        normal: "#3B4252"
+        bold:   "#4C566A"
+    red:
+        normal: "#AB575F"
+        bold:   "#BF616A"
+    green:
+        normal: "#92AB7E"
+        bold:   "#A3BE8C"
+    yellow:
+        normal: "#D3B67D"
+        bold:   "#EBCB8B"
+    blue:
+        normal: "#7490AD"
+        bold:   "#81A1C1"
+    magenta:
+        normal: "#A27F9B"
+        bold:   "#B48EAD"
+    cyan:
+        normal: "#88C0D0"
+        bold:   "#8FBCBB"
+    white:
+        normal: "#E5E9F0"
+        bold:   "#ECEFF4"

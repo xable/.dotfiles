@@ -1,0 +1,66 @@
+#!/bin/bash
+
+#RESTART
+pkill lemonbar
+
+#VARS
+FONT="{{ font4 }}"
+GLYPH="-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1"
+BORDER="4"
+
+#GLYPHS
+glycal=""
+glyclock=""
+glyvol=""
+glyvolm=""
+glywifi=""
+glywifid=""
+
+#COLORS
+#LCOL=""
+#CCOL=""
+#RCOL=""
+BG="{{ bgc }}"
+FG="{{ n_white }}"
+BCOL="{{ b_black }}"
+
+DATE() {
+    date=$(date "+%a %d %b")
+    echo -n "$glycal $date"
+}
+
+CLOCK() {
+    time=$(date "+%R")
+    echo -n "$glyclock $time"
+}
+
+VOL() {
+	level=$(amixer -q | grep -A5 Master | grep '%' | cut -d'[' -f2 | cut -d'%' -f1)
+	muted=$(amixer get Master | grep -o off | tail -n1)
+
+	if [ "$muted" == "off" ]; then
+		echo -n "$glyvolm M"
+	else
+		echo -n "$glyvol $level"
+	fi
+}
+
+WIFI() {
+	wifi=$(iwgetid -r)
+
+	if [ "$wifi" == "" ]; then
+		echo -n "$glywifid N/A"
+    else
+		echo -n "$glywifi $wifi"
+	fi
+}
+
+BAR() {
+    while true; do
+        buf="%{c} $(DATE) $(CLOCK) $(VOL) $(WIFI) "
+        echo "$buf"
+        sleep 0.1
+    done | lemonbar -g "300x20+10+10" -f "$FONT" -f "$GLYPH" -B "$BG" -F "$FG" -R "$BCOL" -r "$BORDER" | bash &
+}
+
+BAR > /dev/null

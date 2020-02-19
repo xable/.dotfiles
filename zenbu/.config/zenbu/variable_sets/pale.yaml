@@ -1,0 +1,40 @@
+# PALE
+name: "pale"
+
+#WALLPAPER
+wallpaper:  "pale.png"
+wtype:      "fill"
+
+#COLORS
+colors:
+    wmbf:       "#37373c"
+    wmbu:       "#2a2a2e"
+
+    background: "#2f2f34"
+    foreground: "#999697"
+    cursor:     "#63676a"
+
+    black:
+        normal: "#2a2a2e"
+        bold:   "#37373c"
+    red:
+        normal: "#683e3e"
+        bold:   "#7b4e50"
+    green:
+        normal: "#738473"
+        bold:   "#8Ba58b"
+    yellow:
+        normal: "#747f5d"
+        bold:   "#849B6c"
+    blue:
+        normal: "#536B88"
+        bold:   "#5A8698"
+    magenta:
+        normal: "#675D74"
+        bold:   "#7E7189"
+    cyan:
+        normal: "#608185"
+        bold:   "#6E9196"
+    white:
+        normal: "#837c7c"
+        bold:   "#999797"

@@ -1,0 +1,40 @@
+# BREEZY
+name: "breezy"
+
+#WALLPAPER
+wallpaper:  "breezy.jpg"
+wtype:      "fill"
+
+#COLORS
+colors:
+    wmbf:       "#31363b"
+    wmbu:       "#2a2e32"
+
+    background: "#232629"
+    foreground: "#cfcfc2"
+    cursor:     "#cfcfc2"
+
+    black:
+        normal: "#2a2e32"
+        bold:   "#31363b"
+    red:
+        normal: "#c0392b"
+        bold:   "#f44f4f"
+    green:
+        normal: "#218058"
+        bold:   "#27ae60"
+    yellow:
+        normal: "#fdbc4b"
+        bold:   "#fdbc4b"
+    blue:
+        normal: "#2980b9"
+        bold:   "#0099ff"
+    magenta:
+        normal: "#8e44ad"
+        bold:   "#af81ff"
+    cyan:
+        normal: "#27aeae"
+        bold:   "#31dddd"
+    white:
+        normal: "#acada1"
+        bold:   "#cfd0c2"

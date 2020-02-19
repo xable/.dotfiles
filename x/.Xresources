@@ -1,0 +1,80 @@
+! Special
+*.background:    #14151F
+*.foreground:    #E5EAF0
+*.cursorColor:   #494A54
+
+! Black
+*.color0:       #1A1B26
+*.color8:       #24252F
+
+! Red
+*.color1:       #A54242
+*.color9:       #E54646
+
+! Green
+*.color2:       #8C9440
+*.color10:      #C1CE45
+
+! Yellow
+*.color3:       #DE935F
+*.color11:      #FFBB66
+
+! Blue
+*.color4:       #7290B2
+*.color12:      #80A1C0
+
+! Magenta
+*.color5:       #85678F
+*.color13:      #B475C9
+
+! Cyan
+*.color6:       #7DBAA8
+*.color14:      #88D0BA
+
+! White
+*.color7:       #D1D6DC
+*.color15:      #E5EAF0
+
+! XFT
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+! Font
+URxvt*font: xft:kuzu:pixelsize=8
+URxvt*boldFont:
+
+! General
+URxvt*scrollBar: false
+URxvt*transparent: false
+URxvt*cursorBlink: true
+URxvt.letterSpace: 0
+URxvt.internalBorder: 5
+URxvt*lineSpace: 0
+URxvt*termName: rxvt-unicode
+URxvt*loginShell: true
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+! Perl
+URxvt.perl-ext-common: default,clipboard,matcher
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
+
+! 2bwm settings
+twobwm.border_width: 4
+twobwm.outer_border: 4
+twobwm.focus_color: #24252F
+twobwm.unfocus_color: #1A1B26
+twobwm.fixed_color: #ffffff
+twobwm.unkill_color: #aaaaaa
+twobwm.outer_border_color: #303030
+twobwm.fixed_unkill_color: #ffffff
+twobwm.inverted_colors: true
+twobwm.enable_compton: false

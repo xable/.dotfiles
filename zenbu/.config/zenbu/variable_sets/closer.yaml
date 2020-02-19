@@ -1,0 +1,40 @@
+# CLOSER
+name: "closer"
+
+#WALLPAPER
+wallpaper:  "closer.jpg"
+wtype:      "fill"
+
+#COLORS
+colors:
+    wmbf:       "#233a49"
+    wmbu:       "#09212f"
+
+    background: "#0b2535"
+    foreground: "#999eac"
+    cursor:     "#9a9a9a"
+
+    black:
+        normal: "#09212f"
+        bold:   "#233a49"
+    red:
+        normal: "#9a9a9a"
+        bold:   "#c5b2ac"
+    green:
+        normal: "#426b5c"
+        bold:   "#a3b49c"
+    yellow:
+        normal: "#ccbaa4"
+        bold:   "#ccc1b3"
+    blue:
+        normal: "#5e839d"
+        bold:   "#6a889d"
+    magenta:
+        normal: "#5f5f75"
+        bold:   "#868697"
+    cyan:
+        normal: "#6f8874"
+        bold:   "#88ad8f"
+    white:
+        normal: "#e0d8e9"
+        bold:   "#e4dfe9"

@@ -1,0 +1,40 @@
+# GOTHAM
+name: "gotham"
+
+#WALLPAPER
+wallpaper:  "cmon.png"
+wtype:      "fill"
+
+#COLORS
+colors:
+    wmbf:       "#131c25"
+    wmbu:       "#10151b"
+
+    background: "#0a0f14"
+    foreground: "#98d1ce"
+    cursor:     "#98d1ce"
+
+    black:
+        normal: "#10151b"
+        bold:   "#131c25"
+    red:
+        normal: "#c33027"
+        bold:   "#d26939"
+    green:
+        normal: "#26a98b"
+        bold:   "#081f2d"
+    yellow:
+        normal: "#edb54b"
+        bold:   "#245361"
+    blue:
+        normal: "#195465"
+        bold:   "#093748"
+    magenta:
+        normal: "#4e5165"
+        bold:   "#888ba5"
+    cyan:
+        normal: "#33859d"
+        bold:   "#599caa"
+    white:
+        normal: "#98d1ce"
+        bold:   "#d3ebe9"
