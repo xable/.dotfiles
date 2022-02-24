@@ -52,8 +52,8 @@ URxvt*boldFont:
 URxvt*scrollBar: false
 URxvt*transparent: false
 URxvt*cursorBlink: true
-URxvt.letterSpace: 0
-URxvt.internalBorder: 5
+URxvt.letterSpace: -1
+URxvt.internalBorder: 10
 URxvt*lineSpace: 0
 URxvt*termName: rxvt-unicode
 URxvt*loginShell: true
@@ -66,6 +66,11 @@ URxvt.keysym.Shift-Control-C: perl:clipboard:copy
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
 URxvt.url-launcher: /usr/bin/firefox
 URxvt.matcher.button: 1
+
+! Sxiv
+Sxiv.background: {{ bgc }}
+Sxiv.foreground: {{ n_magenta }}
+Sxiv.font: {{ font4 }}
 
 ! 2bwm settings
 twobwm.border_width: 4

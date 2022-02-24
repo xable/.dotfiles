@@ -1,4 +1,4 @@
-#Music location
+# Music location
 mpd_music_dir = "~/Music"
 
 # Playlist look
@@ -40,10 +40,12 @@ progressbar_elapsed_color = "cyan"
 
 # Visualizer
 visualizer_in_stereo = "yes"
-visualizer_sync_interval = "30"
 visualizer_output_name = "fifo"
-visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_data_source = "/tmp/mpd.fifo"
 visualizer_type = "spectrum"
+visualizer_autoscale = "yes"
+visualizer_fps = "60"
+#visualizer_color = "white,cyan,blue,green,yellow,red"
 visualizer_color = 9
 visualizer_look = "▋▋"
 

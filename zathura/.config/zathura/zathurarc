@@ -8,7 +8,7 @@ set pages-per-row 1
 set recolor true
 set adjust-open best-fit
 
-set font "kuzu 8"
+set font "JetBrainsMono Nerd Font Mono 9"
 set default-bg "#14151F"
 set default-fg "#E5EAF0"
 set inputbar-bg "#1A1B26"

@@ -9,11 +9,15 @@
 
 export TERM='rxvt-unicode'
 export BROWSER='firefox'
-export EDITOR='vim'
-export VISUAL='vim'
+export EDITOR='nvim'
+export VISUAL='nvim'
 export RHISK_COMM='zenbu'
 export MPD_HOST='127.0.0.1'
 export MPD_PORT='6600'
+export PATH="$PATH:/$HOME/.bin"
+export PATH="$PATH:/$HOME/.local/bin"
+export PATH="$HOME/.local/bin:$PATH"
+export npm_config_prefix="$HOME/.local"
 
 # HISTORY
 HISTCONTROL='ignoredups:ignorespace'
@@ -76,7 +80,7 @@ export FFF_COL4=8
 export FFF_COL5=7
 
 # OTHER
-alias v='vim'
+alias v='nvim'
 alias rt='rtorrent'
 alias mixer='alsamixer'
 alias wttr='curl wttr.in'
@@ -84,7 +88,8 @@ alias rtx='curl rate.sx'
 alias tren='trans -shell en:ru'
 alias trru='trans -shell ru:en'
 alias how='function hdi(){ howdoi $* -c -n 5; }; hdi'
-alias ytdl='youtube-dl -f best[ext=mp4]/bestvideo[ext=mp4]+bestaudio[ext=m4a]/best'
+alias ytdl='yt-dlp -f best[ext=mp4]/bestvideo[ext=mp4]+bestaudio[ext=m4a]/best'
+alias webcam='mpv --demuxer-lavf-o=video_size=1280x720,input_format=mjpeg av://v4l2:/dev/video0 --profile=low-latency'
 
 #PS1="\[$(tput setaf 4)\]┌─╼ \[$(tput setaf 7)\][\w]\n\[$(tput setaf 4)\]\$(if [[ \$? == 0 ]]; then echo \"\[$(tput setaf 4)\]└────╼\"; else echo \"\[$(tput setaf 4)\]└╼\"; fi) \[$(tput setaf 7)\]"
 PS1='\[$(tput setaf 7)\]\w\[$(tput setaf 12)\]$(parse_git_branch) \[$(tput setaf 9)\]» \[$(tput setaf 7)\]'
@@ -180,3 +185,12 @@ touchx() {
   cat <<< "#!/usr/bin/env ${2:-bash}" > "$1"
   chmod +x "$1"
 }
+
+# pyenv configs
+# export PYENV_ROOT="$HOME/.pyenv"
+# export PATH="$PYENV_ROOT/bin:$PATH"
+#
+# if command -v pyenv 1>/dev/null 2>&1; then
+#   eval "$(pyenv init --path)"
+#   eval "$(pyenv virtualenv-init -)"
+# fi

@@ -45,16 +45,22 @@ fonts:
     #font4: "lucy tewii"
 
     #kuzu
-    font1: "-x-kuzu-medium-r-normal--10-100-75-75-n-60-iso10646-1"
-    font2: "xft:kuzu:pixelsize=8"
-    font3: "kuzu 8"
-    font4: "kuzu-8"
+    #font1: "-x-kuzu-medium-r-normal--10-100-75-75-n-60-iso10646-1"
+    #font2: "xft:kuzu:size=8"
+    #font3: "kuzu 8"
+    #font4: "kuzu-8"
 
-    #Iosevka Term
-    #font1: "xft:Iosevka Term:style=Regular:pixelsize=14"
-    #font2: "xft:Iosevka Term:style=Regular:pixelsize=14"
-    #font3: "Iosevka Term 14"
-    #font4: "Iosevka Term-14"
+    #JetBrainsMono Nerd Font Mono
+    font1: "xft:JetBrainsMono Nerd Font Mono:style=Regular:size=9"
+    font2: "xft:JetBrainsMono Nerd Font Mono:style=Regular:size=9"
+    font3: "JetBrainsMono Nerd Font Mono 9"
+    font4: "JetBrainsMono Nerd Font Mono-9"
+
+    #Iosevka Nerd Font Mono
+    #font1: "xft:Iosevka Nerd Font Mono:style=Regular:size=9"
+    #font2: "xft:Iosevka Nerd Font Mono:style=Regular:size=9"
+    #font3: "Iosevka Nerd Font Mono 9"
+    #font4: "Iosevka Nerd Font Mono-9"
 
 
 #COLORS

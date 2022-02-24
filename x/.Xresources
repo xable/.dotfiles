@@ -45,15 +45,15 @@ Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
 ! Font
-URxvt*font: xft:kuzu:pixelsize=8
+URxvt*font: xft:JetBrainsMono Nerd Font Mono:style=Regular:size=9
 URxvt*boldFont:
 
 ! General
 URxvt*scrollBar: false
 URxvt*transparent: false
 URxvt*cursorBlink: true
-URxvt.letterSpace: 0
-URxvt.internalBorder: 5
+URxvt.letterSpace: -1 
+URxvt.internalBorder: 10 
 URxvt*lineSpace: 0
 URxvt*termName: rxvt-unicode
 URxvt*loginShell: true
@@ -64,8 +64,13 @@ URxvt.iso14755_52: false
 URxvt.perl-ext-common: default,clipboard,matcher
 URxvt.keysym.Shift-Control-C: perl:clipboard:copy
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
-URxvt.url-launcher: /usr/bin/firefox
+URxvt.url-launcher: firefox
 URxvt.matcher.button: 1
+
+! Sxiv
+Sxiv.background: #14151F
+Sxiv.foreground: #85678F
+Sxiv.font: JetBrainsMono Nerd Font Mono-9 
 
 ! 2bwm settings
 twobwm.border_width: 4
@@ -77,4 +82,4 @@ twobwm.unkill_color: #aaaaaa
 twobwm.outer_border_color: #303030
 twobwm.fixed_unkill_color: #ffffff
 twobwm.inverted_colors: true
-twobwm.enable_compton: false
+twobwm.enable_compton: true

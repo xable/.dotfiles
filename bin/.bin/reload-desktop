@@ -104,11 +104,14 @@ main ()
 		2bwm)
 			xdotool key Super+Ctrl+r &>/dev/null &
 			;;
+                bspwm)
+                        bspc wm -r &>/dev/null &
+                        ;;
 	esac
 
 	# Reload scripts
 	$HOME/.scripts/ws
-    $HOME/.scripts/gencol
+        $HOME/.scripts/gencol
 
 	# sxiv
 	#sxivconf="$HOME/src/sxiv/"

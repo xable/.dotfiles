@@ -17,3 +17,4 @@ ncmpcpp/.ncmpcpp/error.log
 newsboat/.newsboat/cache.db
 newsboat/.newsboat/history.cmdline
 newsboat/.newsboat/history.search
+packer_compiled.lua

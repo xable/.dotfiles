@@ -4,7 +4,7 @@
 pkill lemonbar
 
 #VARS
-FONT="kuzu-8"
+FONT="JetBrainsMono Nerd Font Mono-9"
 GLYPH="-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1"
 BORDER="4"
 
@@ -18,7 +18,7 @@ glywifid=""
 
 #COLORS
 #LCOL=""
-#CCOL=""
+#COL=""
 #RCOL=""
 BG="#14151F"
 FG="#D1D6DC"

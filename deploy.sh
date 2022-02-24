@@ -24,10 +24,10 @@ stow mpv
 stow ncmpcpp
 stow newsboat
 stow oomox
-stow ranger
+stow rofi
 stow rtorrent
 stow scripts
-stow vim
+stow nvim
 stow x
 stow zathura
 stow zenbu

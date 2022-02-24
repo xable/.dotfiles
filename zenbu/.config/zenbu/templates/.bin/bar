@@ -18,7 +18,7 @@ glywifid=""
 
 #COLORS
 #LCOL=""
-#CCOL=""
+#COL=""
 #RCOL=""
 BG="{{ bgc }}"
 FG="{{ n_white }}"

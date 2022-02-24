@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 #dmwrap - dmenu wrapper
 
-font="kuzu-8"
+font="JetBrainsMono Nerd Font Mono-9"
 nb="#1A1B26"
 nf="#D1D6DC"
 sb="#24252F"
