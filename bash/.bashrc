@@ -43,6 +43,8 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias ls='ls --group-directories-first --color=auto'
 alias la='ls -alhF --color=auto'
+alias poweroff='sudo poweroff'
+alias reboot='sudo reboot'
 
 # PACMAN
 alias upd='pikaur -Syu'

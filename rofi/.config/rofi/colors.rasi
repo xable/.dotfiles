@@ -1,0 +1,22 @@
+/* Colors */
+
+* {
+  bg: #14151F;
+  fg: #E5EAF0;
+  blk: #1A1B26;
+  red: #A54242;
+  grn: #8C9440;
+  ylw: #DE935F;
+  blu: #7290B2;
+  mag: #85678F;
+  cyn: #7DBAA8;
+  wht: #D1D6DC;
+  bblk: #24252F;
+  bred: #E54646;
+  bgrn: #C1CE45;
+  bylw: #FFBB66;
+  bblu: #80A1C0;
+  bmag: #B475C9;
+  bcyn: #88D0BA;
+  bwht: #E5EAF0;
+}

@@ -1,0 +1,154 @@
+configuration {
+  display-run: "run";
+  display-drun: "drun";
+  display-combi:"combi";
+  display-calc:"calc";
+  drun-display-format: "{name}";
+  drun-show-actions: true;
+  modi: "combi,run,drun,calc";
+  combi-modi: "run,drun";
+  font: "JetBrainsMono Nerd Font Mono 9";
+  sidebar-mode: true;
+  show-icons: false;
+  disable-history: true;
+  fixed-num-lines: true;
+  disable-history: true;
+  sort: true;
+}
+
+@import "colors.rasi"
+
+window {
+    border:	4px;
+    border-color:	@bblk;
+    border-radius: 0px;
+    padding: 10;
+    width: 25%;
+    height: 50%;
+    background-color: @blk;
+    location: center;
+}
+
+prompt {
+    spacing: 0;
+    border:	0;
+    text-color:	@wht;
+}
+
+textbox-prompt-colon {
+    expand:	false;
+    str: ":";
+    margin:	0px 4px 0px 0px;
+    text-color:	inherit;
+}
+
+entry {
+    spacing: 0;
+    text-color:	@wht;
+    placeholder: "Search...";
+}
+
+case-indicator {
+    spacing: 0;
+    text-color:	@wht;
+}
+
+inputbar {
+    spacing:    					0px;
+    text-color: 					@wht;
+    padding:    					1px;
+    children: 						[ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+
+mainbox {
+    border: 						0px;
+    border-color: 					@mag;
+    padding: 						6;
+}
+
+listview {
+    fixed-height: 					0;
+    border: 						0px;
+    border-color: 					@mag;
+    spacing: 						4px;
+    scrollbar: 						false;
+    padding: 						5px 5px 0px 5px;
+}
+
+element {
+    border: 						0px;
+    border-radius: 					0px;
+    padding: 						5px;
+}
+element normal.normal {
+    background-color: 				@bblk;
+    text-color:       				@fg;
+}
+element normal.urgent {
+    background-color: 				@bg;
+    text-color:       				@red;
+}
+element normal.active {
+    background-color: 				@red;
+    text-color:       				@bg;
+}
+element selected.normal {
+    background-color: 				@mag;
+    text-color:       				@bg;
+}
+element selected.urgent {
+    background-color: 				@bg;
+    text-color:       				@red;
+}
+element selected.active {
+    background-color: 				@cyn;
+    text-color:       				@bg;
+}
+element alternate.normal {
+    background-color: 				@blk;
+    text-color:       				@fg;
+}
+element alternate.urgent {
+    background-color: 				@bg;
+    text-color:       				@fg;
+}
+element alternate.active {
+    background-color: 				@cyn;
+    text-color:       				@fg;
+}
+
+sidebar {
+    border:       					0px;
+    border-color: 					@grn;
+    border-radius: 					0px;
+}
+
+button {
+    background-color:             	@blu;
+    margin: 						5px;
+    padding: 						5px;
+    text-color: 					@wht;
+    border: 						0px;
+    border-radius: 					0px;
+    border-color: 					@cyn;
+}
+
+button selected {
+    background-color:             	@mag;
+    text-color: 					@wht;
+    border: 						0px;
+    border-radius: 					0px;
+    border-color: 					@fg;
+}
+
+message {
+    border: 						0px;
+    border-color: 					@ylw;
+    padding: 						1px;
+}
+
+textbox {
+    text-color: 					@ylw;
+}
+
+/* vim: ft=css sw=2 ts=2

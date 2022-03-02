@@ -1,4 +1,9 @@
 #!/bin/sh
+
+if [ -n $DBUS_SESSION_BUS_ADDRESS ]; then
+    export $(dbus-launch)
+fi
+
 xrdb -merge $HOME/.Xresources &
 xsetroot -cursor_name left_ptr &
 xbacklight -set 80 &
