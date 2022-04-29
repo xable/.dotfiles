@@ -366,6 +366,8 @@ user_pref("network.cookie.thirdparty.nonsecureSessionOnly", true);
 user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
 user_pref("browser.safebrowsing.provider.google4.dataSharing.enabled", false);
 user_pref("browser.safebrowsing.provider.google4.dataSharingURL", "");
+user_pref("browser.safebrowsing.provider.google.advisoryName", "");
+user_pref("browser.safebrowsing.provider.google.advisoryURL", "");
 user_pref("pdfjs.disabled", true);
 /* FF60+ ***/
 user_pref("browser.chrome.errorReporter.enabled", false);
@@ -422,3 +424,5 @@ user_pref("browser.urlbar.quicksuggest.scenario", "");
 user_pref("browser.urlbar.groupLabels.enabled", false);
 user_pref("browser.urlbar.suggest.quicksuggest.nonsponsored", false);
 user_pref("browser.urlbar.suggest.quicksuggest.sponsored", false);
+user_pref("browser.places.speculativeConnect.enabled", false);
+user_pref("security.csp.enable", true);

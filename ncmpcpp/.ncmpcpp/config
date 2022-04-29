@@ -83,4 +83,5 @@ mouse_support = "yes"
 # $9 - end of current color
 #
 # # Notify
-execute_on_song_change = notify-send "Now Playing:" "$(mpc current)"
+# execute_on_song_change = notify-send "Now Playing:" "$(mpc current)"
+execute_on_song_change = "$HOME/.scripts/notify.sh"

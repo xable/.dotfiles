@@ -219,10 +219,6 @@ cmp.setup({
       end),
     },
 
-    documentation = {
-        border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
-    },
-
     sources = cmp.config.sources({
     { name = "nvim_lsp" },
     { name = "path" },

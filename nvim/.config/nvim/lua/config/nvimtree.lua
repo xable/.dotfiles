@@ -1,7 +1,6 @@
 local g = vim.g
 
 g.nvim_tree_auto_ignore_ft = { 'startify', 'dashboard' }
-g.nvim_tree_indent_markers = 1
 g.nvim_tree_git_hl = 1
 g.nvim_tree_highlight_opened_files = 1
 g.nvim_tree_root_folder_modifier = ':~'
@@ -15,12 +14,11 @@ g.nvim_tree_show_icons = {
 	files = 1,
 }
 
-require('nvim-tree').setup({
+require('nvim-tree').setup {
 	disable_netrw = true,
 	hijack_netrw = true,
 	open_on_setup = false,
 	ignore_ft_on_setup = {},
-	auto_close = false,
 	open_on_tab = false,
 	hijack_cursor = false,
 	update_cwd = false,
@@ -30,10 +28,6 @@ require('nvim-tree').setup({
 		update_cwd = false,
 		ignore_list = {},
 	},
-
-        git = {
-                ingore = true,
-        },
 
 	system_open = {
 		cmd = nil,
@@ -48,10 +42,15 @@ require('nvim-tree').setup({
 	view = {
 		width = 30,
 		side = 'left',
-		auto_resize = false,
 		mappings = {
 			custom_only = false,
 			list = {},
 		},
 	},
-})
+
+        renderer = {
+                indent_markers = {
+                enable = true,
+      },
+   },
+}
