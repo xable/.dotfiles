@@ -1,6 +1,5 @@
 ## ~/.config/zathura/zathurarc
 
-set show-scrollbars false
 set n-completion-items 10
 set zoom-step 5
 set page-padding 0
@@ -15,10 +14,10 @@ set inputbar-bg "{{ n_black }}"
 set inputbar-fg "{{ b_white }}"
 set statusbar-bg "{{ n_black }}"
 set statusbar-fg "{{ b_white }}"
-set tabbar-bg "{{ n_black }}"
-set tabbar-fg "{{ b_white }}"
-set tabbar-focus-bg "{{ n_blue }}"
-set tabbar-focus-fg "{{ b_magenta }}"
+set index-bg "{{ n_black }}"
+set index-fg "{{ b_white }}"
+set index-active-bg "{{ n_magenta }}"
+set index-active-fg "{{ b_white }}"
 set completion-bg "{{ n_black }}"
 set completion-fg "{{ b_white }}"
 set completion-group-bg "{{ n_black }}"

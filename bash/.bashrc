@@ -47,7 +47,7 @@ alias poweroff='sudo poweroff'
 alias reboot='sudo reboot'
 
 # PACMAN
-alias upd='pikaur -Syu'
+alias upd='paru -Syu'
 alias pac='sudo pacman -S'
 alias pac?='pacman -Q | grep'
 alias pkgcnt='pacman -Q | wc -l'

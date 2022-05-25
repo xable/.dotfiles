@@ -1,6 +1,5 @@
 ## ~/.config/zathura/zathurarc
 
-set show-scrollbars false
 set n-completion-items 10
 set zoom-step 5
 set page-padding 0
@@ -15,10 +14,10 @@ set inputbar-bg "#1A1B26"
 set inputbar-fg "#E5EAF0"
 set statusbar-bg "#1A1B26"
 set statusbar-fg "#E5EAF0"
-set tabbar-bg "#1A1B26"
-set tabbar-fg "#E5EAF0"
-set tabbar-focus-bg "#7290B2"
-set tabbar-focus-fg "#B475C9"
+set index-bg "#1A1B26"
+set index-fg "#E5EAF0"
+set index-active-bg "#85678F"
+set index-active-fg "#E5EAF0"
 set completion-bg "#1A1B26"
 set completion-fg "#E5EAF0"
 set completion-group-bg "#1A1B26"
