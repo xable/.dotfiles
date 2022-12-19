@@ -14,6 +14,7 @@
   --url-font-size: 9pt;
   --arrowpanel-menuitem-margin: 0px 4px !important; /* Left and right */
   --arrowpanel-menuitem-padding-block: 4px !important;
+  --toolbar-field-focus-border-color: transparent !important;
   --panel-subview-body-padding: 4px 0 !important; /* Top and bottom */
 }
 
@@ -79,6 +80,10 @@
 
 .tab-label-container {
   height: unset !important;
+}
+
+#tabbrowser-tabs {
+  border-inline-start: none !important;
 }
 
 /* URL-BAR */

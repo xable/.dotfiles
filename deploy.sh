@@ -18,6 +18,7 @@ stow bash
 stow bin
 stow cava
 stow picom
+stow polybar
 stow dunst
 stow mpd
 stow mpv

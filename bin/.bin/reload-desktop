@@ -8,8 +8,8 @@ reload_config=~/.rhisk
 declare usefont=0
 declare xres=~/.Xresources
 
-killall dunst bar
-bar &>/dev/null &
+killall dunst polybar
+polybar &>/dev/null &
 dunst &>/dev/null &
 
 # Functions

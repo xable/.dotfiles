@@ -12,6 +12,7 @@ numlockx &
 dunst &
 urxvtd -q &
 mpd --no-daemon &
+pbar &
 $HOME/.scripts/ws &
 
 session=${1:-2bwm}
