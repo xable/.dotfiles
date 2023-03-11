@@ -4,10 +4,13 @@
   https://github.com/Mrbigdog99/Proton-compact
 */
 
+@import url('file:///home/xable/.mozilla/colors.css');
+
 :root {
-  --bg-dark: var(--bg);
-  --bg-light: var(--blk);
-  --animation: var(--mag);
+  --bg-body: var(--blk);
+  --bg-tab: var(--red);
+  --bg-ina: var(--bblk);
+  --animation: var(--bred);
   --tab-font: "kuzu";
   --tab-font-size 8pt;
   --url-font: "JetBrains Mono";
@@ -46,19 +49,19 @@
 }
 
 .tab-loading-burst[bursting]::before {
-  fill: #E54646 !important
+  fill: var(--animation) !important
 }
 
 #tabbrowser-tabs, .tabbrowser-arrowscrollbox {
-  background: #1A1B26 !important;
+  background: var(--bg-body) !important;
 }
 
 .tab-background[selected="false"], .tabbrowser-tab {
-  background: #1A1B26 !important;
+  background: var(--bg-body) !important;
 }
 
 .tab-background[selected="true"] {
-  background:#A54242 !important;
+  background: var(--bg-tab) !important;
 }
 
 .tab-background {
@@ -71,11 +74,11 @@
 }
 
 .browserContainer {
-	background-color: #1A1B26 !important;
+	background-color: var(--bg-body) !important;
 }
 
 .tabbrowser-tab:hover .tab-background:not([selected]) {
-  background: #8B6363 !important;
+  background: var(--bg-ina) !important;
 }
 
 .tab-label-container {
@@ -83,12 +86,12 @@
 }
 
 #tabbrowser-tabs {
-  border-inline-start: none !important;
+  border-inline-start: unset !important;
 }
 
 /* URL-BAR */
 #urlbar {
-  background: #1A1B26 !important;
+  background: var(--bg-body) !important;
   border: none !important;
   box-shadow: none !important;
   border-bottom: 0px !important;
@@ -101,7 +104,7 @@
 }
 
 #urlbar-background {
-  background-color: #1A1B26 !important;
+  background-color: var(--bg-body) !important;
   animation: none !important;
 }
 
@@ -126,7 +129,7 @@
 
 #browser vbox#appcontent tabbrowser, #content, #tabbrowser-tabpanels,
 browser[type=content-primary],browser[type=content] > html {
-  background: #1A1B26; !important
+  background: var(--bg-body) !important
 }
 
 .titlebar-spacer {
@@ -154,7 +157,7 @@ browser[type=content-primary],browser[type=content] > html {
   border-top-width: 0px !important;
   border-bottom-width: 0px !important;
   margin-bottom: 0px !important;
-  background: #1A1B26 !important;
+  background: var(--bg-body) !important;
   font-family: var(--url-font) !important;
   font-size: var(--url-font-size) !important;
   --toolbar-start-end-padding: 6px !important; /* Navbar button edge padding */
