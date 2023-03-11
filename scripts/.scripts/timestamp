@@ -1,0 +1,6 @@
+#!/bin/bash
+#get current timestamp from a source outside this machine
+timestamp=$(curl -s https://current-timestamp.com/ | grep "<tr><td>Timestamp</td><td>" | sed 's/[^0-9]*//g')
+
+#set the timestamp
+sudo date -s @$(echo $timestamp)
