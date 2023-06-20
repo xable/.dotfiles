@@ -110,8 +110,8 @@ return packer.startup(function(use)
 
   -- dashboard
     use {
-      'glepnir/dashboard-nvim', event = 'VimEnter',
-      config = function() require('config.dashboard') end,
+      'goolord/alpha-nvim',
+      config = function() require'alpha'.setup(require'alpha.themes.dashboard'.config) end,
     }
 
   -- web devicons
