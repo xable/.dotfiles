@@ -1,5 +1,5 @@
 -- Neovim API aliases
-local u = require('utils')
+local u = require('core.utils')
 local o = vim.o
 local wo = vim.wo
 local bo = vim.bo
@@ -9,11 +9,12 @@ o.termguicolors = true
 vim.cmd('colorscheme xresources')
 
 -- global options
+o.autoindent = true
 o.swapfile = true
 o.mouse = 'a'
 o.clipboard = 'unnamedplus'
 o.dir = '/tmp'
-o.cursorline = true 
+o.cursorline = true
 o.cul = true
 o.smartcase = true
 o.laststatus = 2
@@ -29,7 +30,7 @@ o.showmode = false
 -- ... snip ...
 
 -- window-local options
-wo.number = true 
+wo.number = true
 wo.wrap = false
 wo.foldmethod = "manual"
 

@@ -82,4 +82,4 @@ twobwm.unkill_color: #aaaaaa
 twobwm.outer_border_color: #303030
 twobwm.fixed_unkill_color: #ffffff
 twobwm.inverted_colors: true
-twobwm.enable_compton: false
+twobwm.enable_compton: true

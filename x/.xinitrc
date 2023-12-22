@@ -8,7 +8,7 @@ xrdb -merge $HOME/.Xresources &
 xsetroot -cursor_name left_ptr &
 xbacklight -set 80 &
 picom --config $HOME/.config/picom.conf &
-numlockx &
+numlockx on &
 dunst &
 urxvtd -q &
 mpd --no-daemon &
